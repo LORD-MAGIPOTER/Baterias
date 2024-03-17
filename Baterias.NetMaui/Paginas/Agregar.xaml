@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Baterias.NetMaui.Paginas.Agregar"
+             Title="Agregar">
+    <ScrollView>
+        <Frame Margin="5" BackgroundColor="Black">
+            <Grid Margin="2" BackgroundColor="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Primera fila -->
+                <Entry x:Name="Nombre" Grid.Row="0" Grid.Column="0" Margin="5" Placeholder="Nombre" BackgroundColor="BlueViolet" />
+                <Entry x:Name="Presentacion" Grid.Row="0" Grid.Column="1" Margin="5" Placeholder="Presentación" BackgroundColor="BlueViolet" />
+
+                <!-- Segunda fila -->
+                <DatePicker x:Name="FechaCaducidad" Grid.Row="1" Grid.Column="0" Margin="5" TextColor="White" BackgroundColor="BlueViolet" DateSelected="FechaCaducidad_DateSelected" />
+                <Entry x:Name="Precio" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" Margin="5" Placeholder="Precio" BackgroundColor="BlueViolet" />
+
+                <!-- Tercera fila -->
+                <Button x:Name="SeleccionarImagen" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Text="Seleccionar Imagen" BackgroundColor="BlueViolet" Clicked="SeleccionarImagen_Clicked" >
+                    
+                </Button>
+
+                <Button x:Name="Enviar"
+                        Grid.Row="4"
+                        HeightRequest="50"
+                        BackgroundColor="Yellow"
+                        Text="ENVIAR"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Center"
+                        Clicked="Enviar_Clicked">
+                    
+                </Button>
+                
+            </Grid>
+        </Frame>
+    </ScrollView>
+</ContentPage>

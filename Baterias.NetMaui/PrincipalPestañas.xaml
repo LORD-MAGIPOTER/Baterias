@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Baterias.NetMaui.PrincipalPestañas"
+            xmlns:Local="clr-namespace:Baterias.NetMaui.Paginas"
+            xmlns:Pestanas="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            Pestanas:TabbedPage.ToolbarPlacement="Bottom">
+
+
+    <Local:Listar Title="Listar" IconImageSource="listar.png"></Local:Listar>
+    <Local:ListarNombre Title="PorNombre" IconImageSource="nombre.png"></Local:ListarNombre>
+    <Local:ListarFecha Title="PorCaducidad" IconImageSource="caducidad.png"></Local:ListarFecha>
+    <Local:Agregar Title="Agregar" IconImageSource="agregar.png"></Local:Agregar>
+
+    
+</TabbedPage>
