@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\chang\\Downloads\\Baterias.NetMaui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|c:\\users\\chang\\downloads\\baterias.netmaui\\baterias.netmaui\\paginas\\agregar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|solutionrelative:baterias.netmaui\\paginas\\agregar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|c:\\users\\chang\\downloads\\baterias.netmaui\\baterias.netmaui\\paginas\\agregar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|solutionrelative:baterias.netmaui\\paginas\\agregar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|c:\\users\\chang\\downloads\\baterias.netmaui\\baterias.netmaui\\modelo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|solutionrelative:baterias.netmaui\\modelo\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|c:\\users\\chang\\downloads\\baterias.netmaui\\baterias.netmaui\\paginas\\agregar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|solutionrelative:baterias.netmaui\\paginas\\agregar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|c:\\users\\chang\\downloads\\baterias.netmaui\\baterias.netmaui\\paginas\\agregar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|solutionrelative:baterias.netmaui\\paginas\\agregar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{596C62CA-6FA7-461B-BD93-6F1E94073DAE}|Baterias.NetMaui\\Baterias.NetMaui.csproj|c:\\users\\chang\\downloads\\baterias.netmaui\\baterias.netmaui\\paginas\\listarnombre.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,8 +114,7 @@
               "RelativeToolTip": "Baterias.NetMaui\\Modelo\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T02:20:42.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T02:20:42.985Z"
             },
             {
               "$type": "Document",
@@ -127,12 +126,11 @@
               "RelativeToolTip": "Baterias.NetMaui\\Paginas\\ListarNombre.xaml.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAnwBgAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T19:41:14.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T19:41:14.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Agregar.xaml.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\Baterias.NetMaui\\Baterias.NetMaui\\Paginas\\Agregar.xaml.cs",
               "RelativeDocumentMoniker": "Baterias.NetMaui\\Paginas\\Agregar.xaml.cs",
@@ -145,13 +143,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Agregar.xaml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\Baterias.NetMaui\\Baterias.NetMaui\\Paginas\\Agregar.xaml",
               "RelativeDocumentMoniker": "Baterias.NetMaui\\Paginas\\Agregar.xaml",
               "ToolTip": "C:\\Users\\chang\\Downloads\\Baterias.NetMaui\\Baterias.NetMaui\\Paginas\\Agregar.xaml",
               "RelativeToolTip": "Baterias.NetMaui\\Paginas\\Agregar.xaml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAlAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-17T18:40:36.38Z",
               "EditorCaption": ""
@@ -164,7 +162,7 @@
               "RelativeDocumentMoniker": "Baterias.NetMaui\\Modelo\\Helper.cs",
               "ToolTip": "C:\\Users\\chang\\Downloads\\Baterias.NetMaui\\Baterias.NetMaui\\Modelo\\Helper.cs",
               "RelativeToolTip": "Baterias.NetMaui\\Modelo\\Helper.cs",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAALAAAAAfAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAAKQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T05:18:40.741Z",
               "EditorCaption": ""

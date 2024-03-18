@@ -141,24 +141,22 @@ namespace Baterias.NetMaui.Modelo
                 {
                 //Se tiene que hacer a la inversa,
                 //es decir ahora se serializa el objeto para mandarlo en formato json
-
-                //string pilaJson = JsonConvert.SerializeObject(pila);
-                // Crea un objeto StringContent que contiene el JSON de la pila,
-                // con UTF8 para que acepte nuestro alfabeto 
-                //var contenido = new StringContent(pilaJson, Encoding.UTF8, "application/json");
+                
+                // se crea el objeto de tipo stringContent
                 using StringContent jsonContent = new(
                         System.Text.Json.JsonSerializer.Serialize(new
                         {
+                            //se crea el jsoon dando como valor los recibidos en el objeto parametro
                             Nombre = pila.Nombre,
                             Presentacion = pila.Presentacion,
                             FechaCaducidad= pila.FechaCaducidad,
                             Precio= pila.Precio,
                             ImagenPath= pila.ImagenPath
                         }),
-                        Encoding.UTF8,
-                        "application/json");
+                        Encoding.UTF8,//Se usa UTF8 para que acepte los caracteres de nuestro alfabeto
+                        "application/json");//CONtent-type
 
-                //se realiza la solicitud POST al URI con el contenido del objeto pila
+                //se realiza la solicitud POST al URI con el contenido del json creado arriba
                 HttpResponseMessage respuesta = await Cliente.PostAsync(URI, jsonContent);
 
                     //Se verifica si la solicitud tuvo exito
