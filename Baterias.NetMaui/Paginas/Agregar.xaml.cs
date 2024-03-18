@@ -18,8 +18,8 @@ public partial class Agregar : ContentPage
 
     private async void Enviar_Clicked(object sender, EventArgs e)
 	{
-		Sw = new Helper();
-        if (Nombre.Text != null && Presentacion.Text != null && FechaCaducidad.Date != DateTime.MinValue && Precio.Text != null && SeleccionarImagen.Text != null)
+        Sw = new Helper();
+        if (Nombre.Text != null && Presentacion.Text != null && ((FechaCaducidad.Date != DateTime.MinValue) && (FechaCaducidad.Date > DateTime.Now)) && Precio.Text != null && SeleccionarImagen.Text != null)
 
         {
             try
@@ -34,9 +34,17 @@ public partial class Agregar : ContentPage
                     ImagenPath = SeleccionarImagen.Text
                 };
 
-                await Sw.Agregar(nuevoProducto);
-                //Redirigir a la Pagina Listar
-                await Navigation.PushAsync(new Listar());
+                
+                int si = await Sw.Agregar(nuevoProducto);
+
+                if(si == 1)
+                {
+                    await DisplayAlert("Exito", "Se ha insertado correctamente", "ok");
+                    Nombre.Text = "";
+                    Presentacion.Text = "";
+                    FechaCaducidad.Date = DateTime.Now;
+                    Precio.Text = "";
+                }
             }
             catch
             {

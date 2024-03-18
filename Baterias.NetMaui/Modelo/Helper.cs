@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
+using Newtonsoft.Json.Linq;
+using System.Text.Json;
 
 
 
@@ -131,30 +133,50 @@ namespace Baterias.NetMaui.Modelo
         }
 
         //FUNCION PARA ENVIAR LOS DATOS AL API Y AGREGARLOS A LA BD
-        public async Task Agregar(Producto pila)
+        public async Task<int> Agregar(Producto pila)
         {
-            string URI = "http://198.162.100.18/Baterias/api/Productos/AgregarPila";
-            try
-            {
+            int inserto;
+                string URI = "http://192.168.100.18:80/Baterias/api/Productos/AgregarPila";
+                try
+                {
                 //Se tiene que hacer a la inversa,
                 //es decir ahora se serializa el objeto para mandarlo en formato json
-                string pilaJson = JsonConvert.SerializeObject(pila);
+
+                //string pilaJson = JsonConvert.SerializeObject(pila);
                 // Crea un objeto StringContent que contiene el JSON de la pila,
                 // con UTF8 para que acepte nuestro alfabeto 
-                var contenido = new StringContent(pilaJson, Encoding.UTF8, "application/json");
-                
+                //var contenido = new StringContent(pilaJson, Encoding.UTF8, "application/json");
+                using StringContent jsonContent = new(
+                        System.Text.Json.JsonSerializer.Serialize(new
+                        {
+                            Nombre = pila.Nombre,
+                            Presentacion = pila.Presentacion,
+                            FechaCaducidad= pila.FechaCaducidad,
+                            Precio= pila.Precio,
+                            ImagenPath= pila.ImagenPath
+                        }),
+                        Encoding.UTF8,
+                        "application/json");
+
                 //se realiza la solicitud POST al URI con el contenido del objeto pila
-                HttpResponseMessage respuesta = await Cliente.PostAsync(URI, contenido);
-                
-                //Se verifica si la solicitud tuvo exito
-                respuesta.EnsureSuccessStatusCode();
-        
+                HttpResponseMessage respuesta = await Cliente.PostAsync(URI, jsonContent);
+
+                    //Se verifica si la solicitud tuvo exito
+                    respuesta.EnsureSuccessStatusCode();
+                if (respuesta.IsSuccessStatusCode) {
+                    inserto = 1;
+                }
+                else
+                {
+                    inserto = 0;
+                }
+                return inserto;
+                }
+                catch (HttpRequestException ex)
+                {
+                    throw new Exception("Error al hacer la solicitud HTTP: " + ex.Message);
+                }
             }
-            catch (HttpRequestException ex)
-            {
-                throw new Exception("Error al hacer la solicitud HTTP: " + ex.Message);
-            }
-        }
 
 
 

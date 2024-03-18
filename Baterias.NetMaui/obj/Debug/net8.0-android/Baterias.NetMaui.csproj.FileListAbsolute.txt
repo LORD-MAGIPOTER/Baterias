@@ -1063,3 +1063,4 @@ C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-andr
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\Baterias.NetMaui.sourcelink.json
