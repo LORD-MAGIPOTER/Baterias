@@ -1,4 +1,5 @@
 using Baterias.NetMaui.Modelo;
+using System.IO;
 namespace Baterias.NetMaui.Paginas;
 
 public partial class Agregar : ContentPage
@@ -31,7 +32,7 @@ public partial class Agregar : ContentPage
                     Presentacion = Presentacion.Text,
                     FechaCaducidad = Fecha,
                     Precio = Convert.ToDouble(Precio.Text),
-                    ImagenPath = SeleccionarImagen.Text
+                    ImagenPath = Img
                 };
 
                 
@@ -57,15 +58,12 @@ public partial class Agregar : ContentPage
         }
     }
 
-	//Para tomar la imagen y guardarla
     private async void SeleccionarImagen_Clicked(object sender, EventArgs e)
     {
-        var mediaResult = await MediaPicker.PickPhotoAsync();
+        var mediaResult = await MediaPicker.PickPhotoAsync();//Tomar la foto,hacerlo similar a un input type=file
         if (mediaResult != null)
         {
-            Img = mediaResult.FullPath;
+            Img = mediaResult.FileName;//se guarda la foto ahí
         }
     }
-
-
 }

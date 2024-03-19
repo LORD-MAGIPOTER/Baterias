@@ -26,8 +26,11 @@
                 <Entry x:Name="Precio" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" Margin="5" Placeholder="Precio" BackgroundColor="BlueViolet" />
 
                 <!-- Tercera fila -->
-                <Button x:Name="SeleccionarImagen" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Text="Seleccionar Imagen" BackgroundColor="BlueViolet" Clicked="SeleccionarImagen_Clicked" >
-                    
+                <Button x:Name="SeleccionarImagen" Grid.Row="2"
+                        Grid.Column="0" Grid.ColumnSpan="2" 
+                        Margin="5" Text="Seleccionar Imagen" BackgroundColor="BlueViolet"
+                        Clicked="SeleccionarImagen_Clicked" >
+
                 </Button>
 
                 <Button x:Name="Enviar"
