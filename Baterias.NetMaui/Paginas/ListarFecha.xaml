@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Baterias.NetMaui.Paginas.ListarFecha"
-             Title="ListarFecha">
+             Title="ListarFecha"
+             BackgroundColor="Black">
     <ScrollView>
 
         <StackLayout>
@@ -32,74 +33,95 @@
                     Clicked="DatosProd_Clicked">
             </Button>
 
-            <CollectionView x:Name="collectionView">
+            <CollectionView x:Name="collectionView" BackgroundColor="Transparent" >
                 <CollectionView.ItemTemplate>
-
                     <DataTemplate>
-                        <Grid Padding="10">
+                        <Grid Padding="10" BackgroundColor="Transparent">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="auto"></RowDefinition>
-                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <!-- Tres arriba -->
+                                <RowDefinition Height="*"></RowDefinition>
+                                <!-- Dos abajo -->
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <!-- Espacio para la imagen -->
                             </Grid.RowDefinitions>
-
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="80"></ColumnDefinition>
-                                <ColumnDefinition Width="90 "></ColumnDefinition>
+                                <ColumnDefinition Width="90"></ColumnDefinition>
                                 <ColumnDefinition Width="100"></ColumnDefinition>
                                 <ColumnDefinition Width="80"></ColumnDefinition>
-                                <ColumnDefinition Width="120"></ColumnDefinition>
+                                <ColumnDefinition Width="90"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
-                            <HorizontalStackLayout Grid.Row="0" x:Name="Horizontal">
-                                <Label  Grid.Column="0" Grid.Row="0"
-                                        Text="Nombre"
-                                        FontAttributes="Bold">
-                                </Label>
-                                <Label Grid.Column="1" Grid.Row="0"
-                                       Text="Presentacion"
-                                       FontAttributes="Bold">
-                                </Label>
-                                <Label  Grid.Column="2" Grid.Row="0"
-                                        Text="FechaCaducidad"
-                                        FontAttributes="Bold">
-                                </Label>
-                                <Label Grid.Column="3" Grid.Row="0"
-                                       Text="Precio"
-                                       FontAttributes="Bold">
-                                </Label>
-                            </HorizontalStackLayout>
-
+                            <Label Grid.Column="0" Grid.Row="0"
+                   Text="Nombre"
+                   TextColor="White"
+                   FontSize="Small"
+                   Margin="0,0,2,0"
+                   FontAttributes="Bold"
+                   HorizontalOptions="StartAndExpand">
+                            </Label>
+                            <Label Grid.Column="1" Grid.Row="0"
+                   Text="Presentacion"
+                   TextColor="White"
+                   FontSize="Small"
+                   Margin="0,0,2,0"
+                   FontAttributes="Bold"
+                   HorizontalOptions="StartAndExpand">
+                            </Label>
                             <Label Grid.Column="0" Grid.Row="1"
-                                   Text="{Binding Nombre}"
-                                   FontAttributes="Bold"
-                                   TextColor="Black"
-                                   Margin="0,0,5,0">
+                   Text="{Binding Nombre}"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Margin="0,0,5,0"
+                   HorizontalOptions="StartAndExpand">
                             </Label>
                             <Label Grid.Column="1" Grid.Row="1"
-                                   Text="{Binding Presentacion}"
-                                   FontAttributes="Bold"
-                                   Margin="0,0,5,0"
-                                   TextColor="Black">
+                   Text="{Binding Presentacion}"
+                   FontAttributes="Bold"
+                   Margin="0,0,5,0"
+                   TextColor="White"
+                   HorizontalOptions="StartAndExpand">
+                            </Label>
+
+                            <Label Grid.Column="2" Grid.Row="0"
+                   Text="FechaCaducidad"
+                   TextColor="White"
+                   FontSize="Small"
+                   Margin="0,0,2,0"
+                   FontAttributes="Bold"
+                   HorizontalOptions="StartAndExpand">
+                            </Label>
+                            <Label Grid.Column="3" Grid.Row="0"
+                   Text="Precio"
+                   TextColor="White"
+                   FontSize="Small"
+                   Margin="0,0,0,0"
+                   FontAttributes="Bold"
+                   HorizontalOptions="StartAndExpand">
                             </Label>
                             <Label Grid.Column="2" Grid.Row="1"
-                                   Text="{Binding FechaCaducidad}"
-                                   FontAttributes="Bold"
-                                   Margin="0,0,5,0"
-                                   TextColor="Black">
+                   Text="{Binding FechaCaducidad}"
+                   FontAttributes="Bold"
+                   Margin="0,0,5,0"
+                   TextColor="White"
+                   HorizontalOptions="StartAndExpand">
                             </Label>
                             <Label Grid.Column="3" Grid.Row="1"
-                                   Text="{Binding Precio}"
-                                   FontAttributes="Bold"
-                                   Margin="0,0,5,0"
-                                   TextColor="Black">
+                   Text="{Binding Precio}"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,0"
+                   TextColor="White"
+                   HorizontalOptions="StartAndExpand">
                             </Label>
                             <Image Grid.Column="4" Grid.Row="1" 
-                                   Source="{Binding ImagenPath}"
-                                   WidthRequest="100" HeightRequest="100"></Image>
+                   Source="{Binding ImagenPath}"
+                       Margin="0,0,0,0"
+                   WidthRequest="50" HeightRequest="50">
+                            </Image>
 
                         </Grid>
                     </DataTemplate>
-
                 </CollectionView.ItemTemplate>
             </CollectionView>
 

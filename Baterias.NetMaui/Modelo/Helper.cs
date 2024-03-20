@@ -27,7 +27,7 @@ namespace Baterias.NetMaui.Modelo
         public async Task<List<Producto>> ObtenerProductos()
         {
             string contenido;
-            const string URI = "http://192.168.100.18:80/Baterias/api/Productos/ListaPilas/";
+            const string URI = "http://172.16.19.80:80/Baterias/api/Productos/ListaPilas/";
 
             try
             {
@@ -57,7 +57,7 @@ namespace Baterias.NetMaui.Modelo
         public async Task<List<string>> NombresProd()
         {
             string contenido;
-            const string  URI = "http://192.168.100.18/Baterias/api/Productos/GetNombres";
+            const string  URI = "http://172.16.19.80/Baterias/api/Productos/GetNombres";
             try
             {
                 HttpResponseMessage respuesta = await Cliente.GetAsync(URI);
@@ -80,7 +80,7 @@ namespace Baterias.NetMaui.Modelo
         public async Task<List<Producto>> ProductosPorNombre(string nombre)
         {
             string contenido;
-            string URI = "http://192.168.100.18/Baterias/api/Productos/ProductoPorNombre/" + nombre;
+            string URI = "http://172.16.19.80/Baterias/api/Productos/ProductoPorNombre/" + nombre;
 
             try
             {
@@ -109,7 +109,7 @@ namespace Baterias.NetMaui.Modelo
             //se toman los parametros recibidos y se convierten en texto con formato añomesdía
             string fechaIString = fechaI.ToString("yyyy-MM-dd");
             string fechaFString = fechaF.ToString("yyyy-MM-dd");
-            string URI = $"http://192.168.100.18/Baterias/api/Productos/PilasPorFecha/{fechaIString}/{fechaFString}";
+            string URI = $"http://172.16.19.80/Baterias/api/Productos/PilasPorFecha/{fechaIString}/{fechaFString}";
 
             try
             {
@@ -137,7 +137,7 @@ namespace Baterias.NetMaui.Modelo
         public async Task<int> Agregar(Producto pila)
         {
             int inserto;
-                string URI = "http://192.168.100.18:80/Baterias/api/Productos/AgregarPila";
+                string URI = "http://172.16.19.80:80/Baterias/api/Productos/AgregarPila";
                 try
                 {
                 //Se tiene que hacer a la inversa,

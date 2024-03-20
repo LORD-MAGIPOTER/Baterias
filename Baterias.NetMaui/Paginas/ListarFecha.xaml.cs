@@ -27,7 +27,11 @@ public partial class ListarFecha : ContentPage
 
     private async void DatosProd_Clicked(object sender, EventArgs e)
     {
-        if ((fechaf.Year > fechai.Year) || (fechaf.Month > fechai.Month)) {  
+        if ((fechaf.Year > fechai.Year) || (fechaf.Month > fechai.Month)) {
+            if (fechai.Date < FechaInicio.MinimumDate)
+            {
+                await DisplayAlert("Alerta", $"Seleccionar una fecha inicial mayor a {FechaInicio.MinimumDate}", "Ok");
+            }
             Sw = new Helper();
             DatosProductos = await Sw.ProductosPorFecha(fechai, fechaf);
 
@@ -40,6 +44,7 @@ public partial class ListarFecha : ContentPage
                 await DisplayAlert("Error", "Ocurrió  un error al desplegar los datos", "Ok");
             }
         }
+        
         else
         {
             await DisplayAlert("Alerta", "La fecha Final no puede ser menor que la inicial", "Ok");

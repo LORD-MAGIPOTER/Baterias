@@ -18,16 +18,29 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Primera fila -->
-                <Entry x:Name="Nombre" Grid.Row="0" Grid.Column="0" Margin="5" Placeholder="Nombre" BackgroundColor="BlueViolet" />
-                <Entry x:Name="Presentacion" Grid.Row="0" Grid.Column="1" Margin="5" Placeholder="Presentación" BackgroundColor="BlueViolet" />
+                <Entry x:Name="Nombre" Grid.Row="0" Grid.Column="0" Margin="5"
+                       Placeholder="Nombre" PlaceholderColor="White" 
+                       FontAttributes="Bold"
+                       BackgroundColor="BlueViolet" />
+                <Entry x:Name="Presentacion" Grid.Row="0" Grid.Column="1" Margin="5"
+                       Placeholder="Presentación" PlaceholderColor="White" 
+                       FontAttributes="Bold"
+                       BackgroundColor="BlueViolet" />
 
                 <!-- Segunda fila -->
-                <DatePicker x:Name="FechaCaducidad" Grid.Row="1" Grid.Column="0" Margin="5" TextColor="White" BackgroundColor="BlueViolet" DateSelected="FechaCaducidad_DateSelected" />
-                <Entry x:Name="Precio" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" Margin="5" Placeholder="Precio" BackgroundColor="BlueViolet" />
+                <DatePicker x:Name="FechaCaducidad" Grid.Row="1" Grid.Column="0" Margin="5"
+                            TextColor="White" BackgroundColor="BlueViolet"
+                            DateSelected="FechaCaducidad_DateSelected" />
+                
+                <Entry x:Name="Precio" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" Margin="5"
+                       Placeholder="Precio" PlaceholderColor="White" 
+                       FontAttributes="Bold"
+                       BackgroundColor="BlueViolet" />
 
                 <!-- Tercera fila -->
                 <Button x:Name="SeleccionarImagen" Grid.Row="2"
                         Grid.Column="0" Grid.ColumnSpan="2" 
+                        TextColor="White" FontAttributes="Bold"
                         Margin="5" Text="Seleccionar Imagen" BackgroundColor="BlueViolet"
                         Clicked="SeleccionarImagen_Clicked" >
 
@@ -36,12 +49,14 @@
                 <Button x:Name="Enviar"
                         Grid.Row="4"
                         HeightRequest="50"
+                        WidthRequest="100"
+                        Margin="200,0,0,0"
                         BackgroundColor="Yellow"
                         Text="ENVIAR"
                         TextColor="Black"
                         FontAttributes="Bold"
                         HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="Center"
+                        VerticalOptions="CenterAndExpand"
                         Clicked="Enviar_Clicked">
                     
                 </Button>

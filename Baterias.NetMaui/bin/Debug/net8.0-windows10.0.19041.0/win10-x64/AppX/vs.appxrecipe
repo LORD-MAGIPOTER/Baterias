@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-20T00:33:17.486</Modified>
+      <Modified>2024-03-20T14:47:58.666</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-20T00:33:17.217</Modified>
+      <Modified>2024-03-20T14:45:36.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Baterias.NetMaui.runtimeconfig.json">
       <PackagePath>Baterias.NetMaui.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Baterias.NetMaui.dll">
       <PackagePath>Baterias.NetMaui.dll</PackagePath>
-      <Modified>2024-03-20T00:33:15.452</Modified>
+      <Modified>2024-03-20T14:47:57.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Baterias.NetMaui.exe</PackagePath>
-      <Modified>2024-03-20T00:33:15.514</Modified>
+      <Modified>2024-03-20T14:47:57.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -388,7 +388,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Baterias.NetMaui.deps.json">
       <PackagePath>Baterias.NetMaui.deps.json</PackagePath>
-      <Modified>2024-03-20T00:33:16.849</Modified>
+      <Modified>2024-03-20T14:45:36.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chang\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
