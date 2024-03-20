@@ -5,7 +5,7 @@ public partial class ListarNombre : ContentPage
 {
     Helper ?Sw;
     List<string> ?NombresProd;
-    string pr;
+    string ?pr;
 	public ListarNombre()
 	{
 		InitializeComponent();
@@ -18,7 +18,7 @@ public partial class ListarNombre : ContentPage
     {
         NombresProd = await Sw.NombresProd();
         //se itera la lista de nombres
-        for (int i = 0; i <= NombresProd.Count; i++)
+        for (int i = 0; i < NombresProd.Count; i++)
         {
             // se agrega el nombre uno por uno al picker
             Producto.Items.Add(NombresProd[i]);

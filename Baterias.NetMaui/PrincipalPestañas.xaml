@@ -5,12 +5,11 @@
             xmlns:Local="clr-namespace:Baterias.NetMaui.Paginas"
             xmlns:Pestanas="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
             Pestanas:TabbedPage.ToolbarPlacement="Bottom">
-
+    
 
     <Local:Listar Title="Listar" IconImageSource="listar.png"></Local:Listar>
     <Local:ListarNombre Title="PorNombre" IconImageSource="nombre.png"></Local:ListarNombre>
     <Local:ListarFecha Title="PorCaducidad" IconImageSource="caducidad.png"></Local:ListarFecha>
-    <Local:Agregar Title="Agregar" IconImageSource="agregar.png"></Local:Agregar>
-
+    <Local:Agregar Title="Agregar" IconImageSource="agregar.png"></Local:Agregar>   
     
 </TabbedPage>

@@ -536,7 +536,6 @@ C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-andr
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -546,7 +545,6 @@ C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-andr
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\static.flag
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\buildid.txt
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\environment.armeabi-v7a.ll
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1046,13 +1044,6 @@ C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-andr
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\src\com\companyname\baterias\netmaui\R.java
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.ll
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.o
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\environment.armeabi-v7a.o
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.o
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\marshal_methods.armeabi-v7a.o
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\jni_remap.armeabi-v7a.o
-C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1064,3 +1055,12 @@ C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-andr
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\Baterias.NetMaui.sourcelink.json
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\environment.armeabi-v7a.ll
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.ll
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.o
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\environment.armeabi-v7a.o
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.o
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\marshal_methods.armeabi-v7a.o
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\android\jni_remap.armeabi-v7a.o
+C:\Users\chang\Downloads\Baterias.NetMaui\Baterias.NetMaui\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so

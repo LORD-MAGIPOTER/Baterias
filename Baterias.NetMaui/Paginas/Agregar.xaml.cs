@@ -1,5 +1,4 @@
 using Baterias.NetMaui.Modelo;
-using System.IO;
 namespace Baterias.NetMaui.Paginas;
 
 public partial class Agregar : ContentPage

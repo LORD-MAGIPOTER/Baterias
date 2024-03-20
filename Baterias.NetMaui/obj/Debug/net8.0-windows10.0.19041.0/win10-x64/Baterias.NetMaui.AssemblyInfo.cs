@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Baterias.NetMaui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f42b5fc6d71dcdc0a196c225338297e2475d65ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+114356df20f149f63ade4428250b7bb3b9c433e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Baterias.NetMaui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Baterias.NetMaui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

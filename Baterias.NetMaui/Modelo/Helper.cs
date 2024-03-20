@@ -21,13 +21,13 @@ namespace Baterias.NetMaui.Modelo
             Cliente = new HttpClient();
             Cliente.DefaultRequestHeaders.Accept.Clear();
             Cliente.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/Json"));
+                new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
         public async Task<List<Producto>> ObtenerProductos()
         {
             string contenido;
-            const string URI = "http://192.168.100.18/Baterias/api/Productos/ListaPilas/";
+            const string URI = "http://192.168.100.18:80/Baterias/api/Productos/ListaPilas/";
 
             try
             {
@@ -40,8 +40,10 @@ namespace Baterias.NetMaui.Modelo
                     DatosProducto = JsonConvert.DeserializeObject<List<Producto>>(contenido);
                 }
             }
-            catch (HttpRequestException)
+            catch (HttpRequestException ex)
             {
+                string error;
+                error = ex.Message;
                 Producto pr = new Producto
                 {
                     Nombre = "Ha ocurrido un problema al desplegar los datos"
